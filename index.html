@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keyboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        
+        <section>
+            <p><b>Task 11</b></p>
+            <p> 1. Выполните в html верстку клавиш клавиатуры. Сверстайте – блок цифровых клавиш от 1 до 0. И ряд клавиш
+                q – p. Добавьте
+                клавишу левый shift, левый alt, левый ctrl, пробел, enter.</p>
+            <p>2. Добавьте на input .i-11 событие onkeypress или onkeyup или onkeydown ( по вашему выбору). Когда
+                событие происходит (
+                ввод символа в input) необходимо подсветить ( добавить класс active) клавише с таким символом. Со всех
+                остальных клавиш
+                – удалить класс active.</p>
+            <p>3. Если вводится следующий символ – повторить удаление active и подсветить клавишу с введенным символом.
+            </p>
+            <p>4. Ограничения проекта – тестируются только указанные клавиши в латинской раскладке. Комбинации клавиш не
+                тестируются.
+                Т.е. нажиматься shift+A, ctrl+shift – не будут. Все символы вводятся в нижнем регистре.</p>
+
+            <div>
+
+                <input type="text" class="i-11">
+                <div class="out-11">
+                    <div id="keyboard"></div>
+                </div>
+
+        </section>
+
+        </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

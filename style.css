@@ -1,0 +1,100 @@
+
+
+section {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #444;
+}
+
+
+
+.active {
+    background: orange;
+}
+
+.hide {
+    display: none;
+}
+.i-11 {
+    width: 1145px;
+    height: 30px;
+    border: solid green 2px;
+    margin-left: 175px;
+    }
+#keyboard {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    position: relative;
+    margin: 20px auto;
+    width: 1145px;
+    }
+
+
+.line::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.key {
+    float: left;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    margin: 4px;
+    padding: 3px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 32px;
+
+}
+
+.backspace {
+    width: 160px;
+}
+
+.capslock {
+    width: 140px;
+}
+
+.shiftL {
+    width: 175px;
+}
+
+.shiftR {
+    width: 225px;
+}
+
+.space {
+    width: 360px;
+}
+
+.tab {
+    width: 95px;
+}
+
+.enter {
+    width: 180px;
+}
+
+.enterN {
+    width: 145px;
+}
+.ctrlL, .altL {
+    width: 65px;
+}
+
+
+
+.altR,
+.ctrlR {
+    width: 53px;
+}
+
+.low {
+    font-size: 14px;
+}
+.Windows, .ContextMenu {
+    width: auto;
+}
